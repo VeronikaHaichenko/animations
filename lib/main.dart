@@ -2,6 +2,7 @@ import 'package:animations_course/chip.dart' as chip;
 import 'package:animations_course/example1.dart';
 import 'package:animations_course/example2.dart';
 import 'package:animations_course/example3.dart';
+import 'package:animations_course/rive_example.dart';
 import 'package:animations_course/lottie_example.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: const LottieExample(),
+      home: const RiveExample(),
     );
   }
 }
