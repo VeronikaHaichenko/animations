@@ -1,3 +1,4 @@
+import 'package:animations_course/chip.dart' as chip;
 import 'package:animations_course/example1.dart';
 import 'package:animations_course/example2.dart';
 import 'package:animations_course/example3.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: const Example3(),
+      home: const chip.Chip(),
     );
   }
 }

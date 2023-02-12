@@ -63,7 +63,7 @@ class _Example1State extends State<Example1> with SingleTickerProviderStateMixin
                         spreadRadius: 5,
                         blurRadius: 7,
                         offset: const Offset(0, 3),
-                      )
+                      ),
                     ],
                   ),
                 ),
