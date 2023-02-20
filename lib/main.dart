@@ -2,6 +2,7 @@ import 'package:animations_course/chip.dart' as chip;
 import 'package:animations_course/example1.dart';
 import 'package:animations_course/example2.dart';
 import 'package:animations_course/example3.dart';
+import 'package:animations_course/hero/users_list_page.dart';
 import 'package:animations_course/menu/menu_page.dart';
 import 'package:animations_course/rive_example.dart';
 import 'package:animations_course/lottie_example.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: const MenuPage(),
+      home: const UsersListPage(),
     );
   }
 }
