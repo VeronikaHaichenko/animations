@@ -6,6 +6,7 @@ import 'package:animations_course/hero/users_list_page.dart';
 import 'package:animations_course/menu/menu_page.dart';
 import 'package:animations_course/rive_example.dart';
 import 'package:animations_course/lottie_example.dart';
+import 'package:animations_course/tween_colors.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: const UsersListPage(),
+      home: const TweenColors(),
     );
   }
 }
